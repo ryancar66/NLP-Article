@@ -10,14 +10,14 @@ Now you can being using the features from your newly created *nlp* object.
 spaCy has become an industry standard as it differentiated itself by focusing on providing nlp software for production usage. It supports deep learning workflows through its own machine learning library, Thinc. This means it uses Thinc as its backend to support all of its NLP tasks; which will explained in this article.
 
 ### NLP Tasks
-Like many other workflows within Python there is a pipeline that is followed to prepare data in order to perform a model on it. These common steps in a NLP pipeline are broken down below with supporting examples from a response taken from the Harman automotive survey. 
+Like many other workflows within Python there is a pipeline that is followed to prepare data in order to perform a model on it. These common steps in a NLP pipeline are broken down below with supporting examples from a sample response taken from a survey response. 
 ### Tokenization
 The first step is to tokenize our text. This means we break down the paragraphs into sentences, then words and punctuations. In spaCy this is done from the below code. <br>
 **Unparsed:**
 ![image](https://user-images.githubusercontent.com/70989415/141385843-d96a3a65-ec21-4d42-a41d-ec6491911d8d.png)
 **Parsed:**
 ![image](https://user-images.githubusercontent.com/70989415/141385884-bb6a3e1b-f7b3-4791-b57b-bf2f2ba1786d.png)
-In the examples above we are taking the the 495th survey from the Positive column in the DataFrame *example_df* and creating a new object called *sample_review*. We see in the output it shows what one of the respondents replies to "What are the strengths of Harman?". <br>
+In the examples above we are taking the the 495th survey from the Positive column in the DataFrame *example_df* and creating a new object called *sample_review*. We see in the output it shows what one of the respondents replies to "What are the strengths of this company?". <br>
 In the Parsed code we are taking this *sample_review* and attributing NLP features that were created from spaCy to create a new object *parsed_review*. The output looks the same as the Unparsed because the tokenization is taking place behind the scenes. You will see in the next examples how spaCy is breaking down this review into three sentences and then each word in order to extract the meaning from each word and how it fits into the sentences. The perfect way to visualize this is by looking at the Part-of-Speech Tagging. 
 ### Part-of-Speech (POS) Tagging
 After tokenizing we can now tag each part of the text with its linguistic meaning as it relates to its part of speech. Below we can see each individual token in the Token column. These are all now tagged with their meaning in the Part of Sp column. By looking at the first sentence, the spaCy library knows that the word customers is a noun while the word pretty is an adjective. 
