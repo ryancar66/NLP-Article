@@ -1,6 +1,6 @@
 ## Natural Language Processing on Survey Response Data
 ### Introduction
-I recently completed a project for a global electronic retail company wanting to analyze survey data the company has conducted to 16,000 employees. As the company did not have any resources to conduct an advanced analysis on this type of data they asked for help analyzing 18 numeric responses and 2 free form responses in both a qualitative and quantiative manner. This analysis was for a presentation delivered to the C-Suite positions. 
+I recently completed a project for a global electronic retail company wanting to analyze survey data, given to over 16,000 employees. As the company did not have any resources to conduct an advanced analysis on this type of data they asked for help analyzing 18 numeric responses and 2 free form responses in both a qualitative and quantiative manner. This analysis was for a presentation delivered to the C-Suite positions. 
  This article will explain the diverse capabilities of Python and its packaged libraries when it comes to doing natural language processing on free form text data as well as a diving into NLP concepts. 
 
 ### spaCy
