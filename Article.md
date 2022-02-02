@@ -12,7 +12,7 @@ spaCy has become an industry standard as it differentiates itself through provid
 ### NLP Tasks
 Like many other workflows within Python there is a pipeline that is followed to prepare data in order to perform a model on it. These common steps in a NLP pipeline are broken down below with supporting examples from a sample response taken from a survey response. 
 ### Tokenization
-The first step is to tokenize our text. This means we break down the paragraphs into sentences, then words and punctuations. In spaCy this is done from the below code. <br>
+The first step is to tokenize our text. This means we break down the paragraphs into sentences, then sentences into words and punctuations. In spaCy this is done from the below code. <br>
 **Unparsed:**
 ![image](https://user-images.githubusercontent.com/70989415/141385843-d96a3a65-ec21-4d42-a41d-ec6491911d8d.png)
 **Parsed:**
