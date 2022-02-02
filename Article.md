@@ -1,12 +1,12 @@
 ## Natural Language Processing on Survey Response Data
 ### Introduction
-I recently completed a project for a global electronic retail company wanting to analyze survey data, given to over 16,000 employees. As the company did not have any resources to conduct an advanced analysis on this type of data they asked for help analyzing 18 numeric responses and 2 free form responses in both a qualitative and quantiative manner. This analysis was for a presentation delivered to the C-Suite positions. 
+I recently completed a project for a global electronic retail company wanting to analyze survey data, given to over 16,000 employees. As the company did not have any resources to conduct an advanced analysis on this type of data they asked for help analyzing 18 numeric responses and 2 free form responses in both a qualitative and quantiative manner. This analysis used in a presentation delivered to the C-Suite executives. 
  This article will explain the diverse capabilities of Python and its packaged libraries when it comes to doing natural language processing on free form text data as well as a diving into NLP concepts. 
 
 ### spaCy
-spaCy is an open-source library using the Python programming language for advanced natural language processing. For those unfamiliar the ease of importing a complicated library like spaCy takes two lines of codes. 
+spaCy is an open-source library using the Python programming language for advanced natural language processing. spaCy is able to handle powerful, complex analyses but for those unfamiliar the ease of importing a library like spaCy takes two lines of codes. 
 ![image](https://user-images.githubusercontent.com/70989415/141222950-67b1851c-55cc-4362-8330-b717a79674d8.png)
-Now you can being using the features from your newly created *nlp* object. 
+Now you can begin using the features from your newly created *nlp* object. 
 spaCy has become an industry standard as it differentiated itself by focusing on providing nlp software for production usage. It supports deep learning workflows through its own machine learning library, Thinc. This means it uses Thinc as its backend to support all of its NLP tasks; which will explained in this article.
 
 ### NLP Tasks
