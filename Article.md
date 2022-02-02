@@ -6,8 +6,8 @@ I recently completed a project for a global electronic retail company wanting to
 ### spaCy
 spaCy is an open-source library using the Python programming language for advanced natural language processing. spaCy is able to handle powerful, complex analyses but for those unfamiliar the ease of importing a library like spaCy takes two lines of codes. 
 ![image](https://user-images.githubusercontent.com/70989415/141222950-67b1851c-55cc-4362-8330-b717a79674d8.png)
-Now you can begin using the features from your newly created *nlp* object. 
-spaCy has become an industry standard as it differentiated itself by focusing on providing nlp software for production usage. It supports deep learning workflows through its own machine learning library, Thinc. This means it uses Thinc as its backend to support all of its NLP tasks; which will explained in this article.
+Now you can begin using the features from your newly created *nlp* object. <br>
+spaCy has become an industry standard as it differentiates itself through providing nlp software for production usage. It supports deep learning workflows through its own machine learning library, Thinc. This means it uses Thinc as its backend to support all of its NLP tasks; which will be explained in this article.
 
 ### NLP Tasks
 Like many other workflows within Python there is a pipeline that is followed to prepare data in order to perform a model on it. These common steps in a NLP pipeline are broken down below with supporting examples from a sample response taken from a survey response. 
